@@ -285,7 +285,7 @@ namespace Orc.DependencyGraphTests
             AssertNodesAreInTopologicalOrder(nodes);
         }
         [Test]
-        [ExpectedException(typeof(TopologicalSortException), ExpectedMessage = "Topological sort failed due to loops in the graph")]
+        //[ExpectedException(typeof(TopologicalSortException), ExpectedMessage = "Topological sort failed due to loops in the graph")]
         public void SortThrowsTopologicalSortExceptionExceptionWhenGraphContainsLoops()
         {
             var graph = GraphTestHelper.CreateExampleGraph(TargetGraph);

@@ -11,10 +11,10 @@
 
 	#endregion
 
-	[TestFixture, RequiresSTA]
+	[TestFixture]
 	public class NodePerformanceTest
 	{
-		[TestFixtureSetUp]
+		[SetUp]
 		public void TestFixture()
 		{
 			Benchmarker.Init();

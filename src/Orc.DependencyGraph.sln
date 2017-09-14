@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orc.DependencyGraph", "Orc.DependencyGraph\Orc.DependencyGraph.csproj", "{DF5E12B3-3765-4D82-86D6-2B7121432B0E}"
 EndProject
@@ -30,6 +30,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DC6FFE
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tess", "Tess\Tess.csproj", "{3F159774-5C08-403F-A75D-F4D260B6F9DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,10 @@ Global
 		{1B846C6E-7C93-48DF-8077-7FC828F1B35B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B846C6E-7C93-48DF-8077-7FC828F1B35B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B846C6E-7C93-48DF-8077-7FC828F1B35B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F159774-5C08-403F-A75D-F4D260B6F9DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F159774-5C08-403F-A75D-F4D260B6F9DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F159774-5C08-403F-A75D-F4D260B6F9DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F159774-5C08-403F-A75D-F4D260B6F9DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,5 +62,6 @@ Global
 		{DF5E12B3-3765-4D82-86D6-2B7121432B0E} = {3AC96DE2-9900-47CA-9BF5-F5BB9E96A70E}
 		{5DA1D7A5-DE18-44B5-89C9-9EB43ACF191D} = {3AC96DE2-9900-47CA-9BF5-F5BB9E96A70E}
 		{1B846C6E-7C93-48DF-8077-7FC828F1B35B} = {3AC96DE2-9900-47CA-9BF5-F5BB9E96A70E}
+		{3F159774-5C08-403F-A75D-F4D260B6F9DF} = {3AC96DE2-9900-47CA-9BF5-F5BB9E96A70E}
 	EndGlobalSection
 EndGlobal

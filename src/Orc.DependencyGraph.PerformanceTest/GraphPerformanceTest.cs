@@ -6,7 +6,7 @@ namespace Orc.DependencyGraphPerformanceTests
     using NUnitBenchmarker;
     using DependencyGraph.GraphD;
 
-    [TestFixture, RequiresSTA]
+    [TestFixture]
     public class GraphPerformanceTest
     {
         [Test, TestCaseSource(typeof(TestFactory), "TestCases")]
